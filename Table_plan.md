@@ -2,9 +2,7 @@
 
 There are 2 tables - **plans** , **subscriptions**
 
-**Table 'plans' description**
-
-**There are 5 customer plans**:
+**Table 'plans' description**:
 
 **Trial** — Customers sign up for a 7-day free trial and will be automatically enrolled in the pro monthly subscription plan
 unless they unsubscribe, downgrade to basic, or upgrade to an annual pro plan during the trial.
@@ -19,7 +17,7 @@ When clients cancel their Foodie-Fi service, a Churn plan record with a null pri
 until the end of the billing cycle.
 
 
-**Table 'subscription' description**
+**Table 'subscription' description**:
 
 Customer subscriptions display the precise date on which their specific plan id begins.
 
